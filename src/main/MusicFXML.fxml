@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="907.0" style="-fx-background-color: #3b3d42;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MusicPlayerController">
+   <children>
+      <Button fx:id="testButton" layoutX="577.0" layoutY="97.0" mnemonicParsing="false" text="Stop" />
+      <Slider fx:id="volumeSlider" blockIncrement="1" layoutX="454.0" layoutY="290.0" max="100.0" showTickLabels="true" showTickMarks="true" />
+      <ListView fx:id="songView" layoutX="47.0" layoutY="48.0" prefHeight="671.0" prefWidth="295.0" />
+      <TextField fx:id="currentlyPlayingField" layoutX="439.0" layoutY="197.0" prefHeight="25.0" prefWidth="389.0" promptText="Currently playing:" />
+      <CheckBox fx:id="keepPlayingBox" layoutX="364.0" layoutY="55.0" mnemonicParsing="false" text="Keep Playing?" textFill="#f8f8f8" />
+      <TextField fx:id="startTime" layoutX="353.0" layoutY="110.0" promptText="Start Time" />
+      <TextField fx:id="endTime" layoutX="353.0" layoutY="147.0" promptText="End Time" />
+      <ProgressBar fx:id="lengthBar" layoutX="606.0" layoutY="444.0" prefHeight="49.0" prefWidth="200.0" progress="0.0" />
+   </children>
+</AnchorPane>
